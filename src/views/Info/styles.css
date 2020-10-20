@@ -65,6 +65,7 @@
 
 .row{
     max-width:630px;
+    max-height: 400px;
     padding-left: 5%;
     display: flex;
     flex-wrap: wrap;
@@ -116,6 +117,7 @@
  .card2 .row{
     margin-left: -5%;
     max-width:580px;
+    max-height: 400px;
     
  }
 
@@ -138,6 +140,7 @@
 
 .card3 .row{
     max-width:500px;
+    max-height: 500px;
     padding-left: 5px;
     display: flex;
     flex-wrap: wrap;
@@ -179,7 +182,6 @@
     text-decoration: none;
     color: black;
 }
-
 .face {
     width: 40px;
     background-color: #f8f9fa;
@@ -187,9 +189,6 @@
     font-size: 1.6em;
     cursor: pointer;
     transition: .5s;
-}
-.face a:hover{
-    transform: scale(1.2);
 }
 .insta{
     font-size: 1.6em;
