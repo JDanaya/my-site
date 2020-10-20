@@ -10,6 +10,16 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import {} from '@fortawesome/free-solid-svg-icons';
 import {faFacebookSquare, faInstagram , faLinkedin, faWhatsapp} from '@fortawesome/free-brands-svg-icons'
 
+(function(d, w, c) {
+    w.ChatraID = 'j7uhNPDsMjYMpRDFz';
+    var s = d.createElement('script');
+    w[c] = w[c] || function() {
+        (w[c].q = w[c].q || []).push(arguments);
+    };
+    s.async = true;
+    s.src = 'https://call.chatra.io/chatra.js';
+    if (d.head) d.head.appendChild(s);
+})(document, window, 'Chatra');
 function Info (){
 
     const Nav = () => {
