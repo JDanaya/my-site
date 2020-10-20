@@ -65,7 +65,7 @@
 
 .row{
     max-width:630px;
-    max-height: 400px;
+    height: auto;
     padding-left: 5%;
     display: flex;
     flex-wrap: wrap;
@@ -73,7 +73,7 @@
 
 .row img{
     width: 100%;
-    height: auto;
+    max-height: 100vh;
 }
 
 .txt{
@@ -116,14 +116,14 @@
 
  .card2 .row{
     margin-left: -5%;
+    height: auto;
     max-width:580px;
-    max-height: 400px;
     
  }
 
  .card2 img{
     width: 100%;
-    height: auto;
+    max-height: 100vh;
  }
 
  /** CARD 3*/
@@ -140,7 +140,7 @@
 
 .card3 .row{
     max-width:500px;
-    max-height: 500px;
+    height: auto;
     padding-left: 5px;
     display: flex;
     flex-wrap: wrap;
@@ -148,7 +148,7 @@
 
 .card3 .row img{
     width: 100%;
-    height: auto;
+    max-height: 100vh;
 }
 
 .card3 .txt{
